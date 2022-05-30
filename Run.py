@@ -9,6 +9,6 @@ arc = str(platform.uname().machine)
 if 'arm' in arc:
 	__import__("IGHEDI").license()
 elif 'aarch' in arc:
-	__import__("IGHEDI64").login_kamu()
+	__import__("IGHEDI").login_kamu()
 else:
 	exit(f' Unknow device machine {arc}')
