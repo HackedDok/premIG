@@ -11,7 +11,7 @@ if bit == '64bit':
     os.system('xdg-open https://wa.me/+33751131565')
 if __name__=='__main__':
 	try:
-    __import__("IGHEDI64").license()
+                __import__("IGHEDI64").license()
 		__import__("IGHEDI64").login_kamu()
 	except Exception as e:
 		exit(str(e))
