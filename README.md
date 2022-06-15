@@ -77,7 +77,7 @@ pip install mechanize 
 pip install futures  
 git clone https://github.com/HackedDok/premIG
 cd premIG
-python Hedi.py
+python IGHEDI.py
 
 
 ```
